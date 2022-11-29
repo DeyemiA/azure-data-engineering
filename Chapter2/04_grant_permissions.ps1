@@ -1,4 +1,4 @@
-$me = az ad signed-in-user show --query objectId
+$me = az ad signed-in-user show --query id
 
 $tenantId = az account show --query tenantId
 
